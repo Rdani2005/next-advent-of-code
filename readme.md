@@ -59,6 +59,18 @@ docker run -p 3000:3000 next-advent-of-code
 
 After this, the Application should Be Running at [localhost:3000](http://localhost:3000)
 
+## Pushing from existance container
+
+You can push from an existance container on docker hub. To do so, you should follow this guide:
+
+1. Pull and run the container
+
+```bash
+ docker run -p 3000:3000 rdani2005/next-advent-of-code:latest
+```
+
+After this, the Application should Be Running at [localhost:3000](http://localhost:3000)
+
 ## Usage
 
 Once the application is up and running, you can access the results of Advent of Code problems. The intuitive interface allows you to navigate and explore solutions provided by the backend.
