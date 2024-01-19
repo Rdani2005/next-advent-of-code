@@ -39,6 +39,26 @@ yarn dev
 
 The Application Will Be Running at [localhost:3000](http://localhost:3000)
 
+## Docker Set Up
+
+You can use this project with Docker. To do it, follow the next guide:
+
+### Building container for image
+
+1. Build the docker image
+
+```bash
+docker build -t next-advent-of-code .
+```
+
+2. Run the container
+
+```
+docker run -p 3000:3000 next-advent-of-code
+```
+
+After this, the Application should Be Running at [localhost:3000](http://localhost:3000)
+
 ## Usage
 
 Once the application is up and running, you can access the results of Advent of Code problems. The intuitive interface allows you to navigate and explore solutions provided by the backend.
