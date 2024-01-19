@@ -44,12 +44,12 @@ export const Footer = () => {
                                     }}
                                 >
                                     Project Design by{" "}
-                                    <a
+                                    <Link
                                         href="https://rdani2005.com"
                                         target="_blank"
                                     >
                                         Danny Sequeira
-                                    </a>
+                                    </Link>
                                 </Typography>
                             </Box>
                         </Grid>

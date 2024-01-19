@@ -81,10 +81,13 @@ export default function Home() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <NextLink href={challenge.link} legacyBehavior>
+                                <NextLink
+                                    href={challenge.link}
+                                    legacyBehavior
+                                    passHref
+                                >
                                     <Link>
                                         <Button
-                                            href={challenge.link}
                                             rel="noopener noreferrer"
                                             color="primary"
                                         >
